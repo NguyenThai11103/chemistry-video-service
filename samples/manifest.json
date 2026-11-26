@@ -1,0 +1,23 @@
+[
+  {
+    "learner_query": "How does the pH scale work?",
+    "output_file": "samples/01_ph_scale.mp4",
+    "duration_seconds": 45.555333,
+    "file_size_bytes": 1014229,
+    "validation_passed": true
+  },
+  {
+    "learner_query": "Why do atoms form covalent bonds?",
+    "output_file": "samples/02_covalent_bonds.mp4",
+    "duration_seconds": 45.670996,
+    "file_size_bytes": 1131388,
+    "validation_passed": true
+  },
+  {
+    "learner_query": "What is the difference between ionic and covalent bonding?",
+    "output_file": "samples/03_ionic_vs_covalent.mp4",
+    "duration_seconds": 46.937333,
+    "file_size_bytes": 1179722,
+    "validation_passed": true
+  }
+]

@@ -5,6 +5,8 @@ __pycache__/
 .ruff_cache/
 .env
 data/runtime_jobs/
+tmp/
+chemistry_video_challenge.pdf
 
 # Generated showcase videos are intentionally versionable.
 !samples/

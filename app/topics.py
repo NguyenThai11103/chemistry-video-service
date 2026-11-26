@@ -446,6 +446,12 @@ for _topic in CHEMISTRY_TOPICS:
 topic_registry = TOPIC_REGISTRY
 
 
+def match_topic(query: str, subject: str = "chemistry") -> TopicDefinition | None:
+    """Match a learner query against the default subject-scoped registry."""
+
+    return TOPIC_REGISTRY.match(query, subject=subject)
+
+
 __all__ = [
     "CHEMISTRY_TOPICS",
     "TOPIC_REGISTRY",
@@ -453,6 +459,7 @@ __all__ = [
     "TopicDefinition",
     "TopicMatcher",
     "TopicRegistry",
+    "match_topic",
     "normalize_question",
     "topic_registry",
 ]
