@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+pillow
+edge-tts
+httpx
+pytest
+pytest-asyncio

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.pytest-*/
+.ruff_cache/
+.env
+data/runtime_jobs/
+
+# Generated showcase videos are intentionally versionable.
+!samples/
+!samples/**
